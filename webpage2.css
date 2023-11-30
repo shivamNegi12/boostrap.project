@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_header img {
+    width: 100px;
+    height: 40px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.top_header {
+    padding: 40px;
+    background-image: url(https://wallpapercrafter.com/desktop1/547755-red-background-the-moon-the-darkness-black-Trees.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.display_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+nav ul input {
+    
+    text-transform: capitalize;
+    color: #fff;
+    padding: 8px;
+    background-color: transparent;
+}
+.search {
+    margin: -20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+    background-color: red;
+    padding: 10px 25px;
+}
+.join_us_btn {
+    margin: 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 12px 40px;
+    border-radius: 30px;
+
+}
+.content_div p {
+    width: 55%;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.content_div h1 {
+    width: 30%;
+    font-size: 40px;
+}
+.content_div h1 span {
+    color: red;
+    font-size: 40px;
+    
+}
+.content_div {
+    color: #fff;
+    text-transform: uppercase;
+}
+.main_sec2 input {
+    padding: 5px;
+    text-transform: capitalize;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #fff;
+
+    margin: 10px;
+}
+.main_sec2 {
+    background-color: #000;
+
+    border: 2px solid black ;
+    margin: 50px;
+    width: 300px;
+    padding: 30px 40px;
+
+}
+.login_btn {
+    border-radius: 10px;
+    width: 190px;
+    margin-bottom: 15px;
+   
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+.login_btn_2 {
+    width: 190px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: red;
+}
+.main_sec2 h4{
+    color: #fff;
+    margin: 15px;
+}
+.main_sec2 h3 {
+    color: #fff;
+    text-transform: capitalize;
+}
+.font_icon i {
+    color: #fff;
+    margin: 5px;
+    font-size: 25px;
+}
+.top_header {
+    position: relative;
+}
+.main_sec2 {
+    position: absolute;
+    top: 90px;
+    left: 850px;
+
+    
+}
